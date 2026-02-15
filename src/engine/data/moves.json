@@ -1,0 +1,56 @@
+[
+  {
+    "id": "snap_suplex",
+    "name": "Snap Suplex",
+    "context": ["front"],
+    "tier": "medium",
+    "startup": 16,
+    "active": 8,
+    "recovery": 20,
+    "staminaCost": 8,
+    "spiritGain": 15,
+    "damage": 12,
+    "limbTarget": "torso"
+  },
+  {
+    "id": "dragon_screw",
+    "name": "Dragon Screw",
+    "context": ["front", "side"],
+    "tier": "light",
+    "startup": 10,
+    "active": 7,
+    "recovery": 14,
+    "staminaCost": 5,
+    "spiritGain": 8,
+    "damage": 7,
+    "limbTarget": "leftLeg"
+  },
+  {
+    "id": "crossface",
+    "name": "Crossface",
+    "context": ["ground"],
+    "tier": "heavy",
+    "startup": 20,
+    "active": 60,
+    "recovery": 24,
+    "staminaCost": 12,
+    "spiritGain": 20,
+    "damage": 4,
+    "limbTarget": "head",
+    "canSubmit": true
+  },
+  {
+    "id": "jackknife_pin",
+    "name": "Jackknife Pin",
+    "context": ["ground"],
+    "tier": "light",
+    "startup": 6,
+    "active": 90,
+    "recovery": 10,
+    "staminaCost": 3,
+    "spiritGain": 4,
+    "damage": 1,
+    "limbTarget": "torso",
+    "canPin": true
+  }
+]
